@@ -1,0 +1,176 @@
+/*
+.red>span{
+    background: rgb(20, 161, 15);
+}
+.red + p{
+    background: crimson;
+}
+
+
+
+*{
+    background:whitesmoke;
+}
+h2{
+    color: rgba(180, 134, 17, 0.856);
+}
+span{
+    color: rgba(80, 41, 102, 0.534);
+}
+ul{
+    background-color: darkorange;
+}
+li{
+    color: forestgreen;
+}
+#green{
+    background: greenyellow;
+}
+.orange>p{
+    background: indigo;
+}
+
+h2{
+    color: darkblue;
+    background: darkkhaki;
+}
+
+.start{
+    background-image:url('nature.png');
+    height: 100vh;
+ 
+    border:5px solid darkslategray;
+    
+}
+div{
+    background-image: url("pic.jpg");
+    height: 100vh;
+}
+h3{
+    background: rgb(84, 209, 182);
+}
+ol{
+    background: rgb(166, 255, 0);
+    border:black;
+
+}
+li{
+    background: rgb(202, 2, 2);
+}
+
+
+.home{
+    width: 90px;
+    height: 90px;
+    margin-top: 200px;
+    margin-left: 380px;
+    background: red;
+    border-radius: 700px;
+    margin-bottom: -108px;
+
+}
+.tin{
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 460px;
+    border-radius:700px;
+    background:blue;
+}
+.tin1{
+    width: 200px;
+    height: 200px;
+    margin-top: -105px;
+    margin-left: 300px;
+    border-radius:700px;
+    background: purple;
+}
+.tin2{
+    width: 200px;
+    height: 200px;
+    margin-top: -350px;
+    margin-left: 188px;
+    border-radius:700px;
+    background:blue;
+}
+.tin3{
+    width: 200px;
+    height: 200px;
+    margin-top: -310px;
+    margin-left: 350px;
+    border-radius:700px;
+    background: purple;
+
+}
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    width: 100%;
+    padding: 10px;
+    background: whitesmoke;
+   
+}
+
+.top{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top1 a{
+    width: 20%;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+
+}
+.top2 a{
+    width: 80%;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+    font-size: 20px;
+}  
+
+.sine{
+    background: cornsilk;
+    height: 400px;
+    width: 100px;
+
+    
+}
+.sine ul{
+    list-style-type: none;
+    
+}
+.sine li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    display:block;
+    color: black;
+}
+.sine li{
+    position: relative;
+}
+
+
+.sine li a:hover{
+    background:rgb(247, 226, 226);
+  
+}
+.main{
+    background: darkgrey;
+    position: absolute;
+    left: 100px;
+    top: -20px;
+    width:100px;
+    display: none;
+}
+.sine li:hover .main{
+    display: block;
+}

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kite{
+    background:rgb(236, 251, 152) url("account.png") no-repeat center fixed;
+    color: brown;
+    
+   
+}

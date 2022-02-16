@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    background: #fff; 
+}
+header{
+    background: lightcyan;
+}
+.first{
+    width: 100%;
+}
+.first::after{
+    content: "";
+    display:table ;
+    clear: both;
+}
+.first .logo{
+    width: 10%;
+    padding: 10px;
+    float: left;
+}
+.first .smenu{
+    width: 90%;
+    float: left;
+}
+.smenu ul{
+    list-style-type: none;
+
+}
+.smenu ul li{
+    float: left;
+
+}
+.smenu ul li a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: #000;
+    font-size: 22px;
+}
+.smenu a:hover{
+    background: whitesmoke
+}
+.smenu .drop li{
+    float: none;
+}
+.smenu .drop a{
+    padding: 6px;
+}
+.smenu .drop li{
+    position: relative;
+}
+.smenu .drop{
+    display: none;
+    position: absolute;
+    background: rgb(248, 238, 238);
+    margin-top: 5px;
+    width: 50%;
+    height: 200px;
+}
+.smenu li:hover .box{
+    background: wheat;
+    
+}
+.smenu .drop .box{
+    
+    width: 33.33%;
+    background: inherit;
+    float: left;
+}
+.smenu li:hover .drop{
+    display: block;
+    
+}
+.first .logo a{
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.side{
+    width: 100px;
+    height: 100vh;
+    background: whitesmoke;
+}
+.side ul{
+    list-style-type: none;
+}
+.side a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display:block;
+}
+.side a:hover{
+    background: rgb(241, 213, 213);
+
+}

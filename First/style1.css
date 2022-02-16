@@ -1,0 +1,15 @@
+.Flag{
+    width: 600px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left:282px ;
+    background: green;
+}
+.circle{
+    width: 200px;
+    height:200px ;
+    margin-top:-250px;
+    margin-left:485px ;
+    background: red;
+    border-radius:50% ;
+}
